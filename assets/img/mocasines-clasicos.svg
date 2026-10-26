@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <title>Mocasines clásicos</title>
+  <desc>Ilustración de mocasines clásicos de color marrón oscuro.</desc>
+  <rect width="400" height="500" fill="#f4f4f5"/>
+  <g transform="translate(0 30)"><path d="M60 300 Q60 240 110 230 L170 215 Q200 150 250 170 L260 215 Q330 235 345 290 Q350 330 320 335 H80 Q60 335 60 300 Z" fill="#5b3a29" stroke="#00000022" stroke-width="3"/><rect x="60" y="320" width="285" height="22" rx="8" fill="#00000030"/></g>
+</svg>
