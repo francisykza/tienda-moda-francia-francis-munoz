@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <title>Cinturón de cuero</title>
+  <desc>Ilustración de cinturón de cuero de color marrón.</desc>
+  <rect width="400" height="500" fill="#f4f4f5"/>
+  <g transform="translate(0 30)"><rect x="50" y="215" width="300" height="48" rx="8" fill="#6b4429" stroke="#00000022" stroke-width="3"/><rect x="170" y="203" width="62" height="72" rx="8" fill="none" stroke="#c9b27a" stroke-width="10"/><circle cx="105" cy="239" r="5" fill="#00000040"/><circle cx="135" cy="239" r="5" fill="#00000040"/></g>
+</svg>

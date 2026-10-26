@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Campaña de otoño</title>
+  <desc>Composición abstracta en tonos verde bosque, beige y terracota con siluetas de prendas.</desc>
+  <rect width="800" height="500" fill="#14532d"/>
+  <circle cx="620" cy="140" r="170" fill="#dcd2b4"/>
+  <path d="M200 120 L250 95 Q290 140 330 95 L380 120 L450 185 L405 235 L370 212 V470 H210 V212 L175 235 L130 185 Z" fill="#f5f3ee" opacity=".95"/>
+  <path d="M520 190 H700 L715 470 H620 L610 300 L600 470 H505 Z" fill="#b45a3c"/>
+</svg>
