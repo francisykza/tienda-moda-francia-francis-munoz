@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo | Maison Orvane</title>
+  <meta name="description" content="Calzado, camisas, pantalones y accesorios de Maison Orvane. Prototipo de demostración: marca, productos, precios y textos son ficticios.">
+  <meta name="theme-color" content="#14532d">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Catálogo de Maison Orvane",
+  "numberOfItems": 20,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "Zapatillas de piel blanca",
+        "sku": "OR-CAL-001",
+        "category": "Calzado",
+        "offers": {
+          "@type": "Offer",
+          "price": "129.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "Botines de ante",
+        "sku": "OR-CAL-002",
+        "category": "Calzado",
+        "offers": {
+          "@type": "Offer",
+          "price": "149.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "Mocasines clásicos",
+        "sku": "OR-CAL-003",
+        "category": "Calzado",
+        "offers": {
+          "@type": "Offer",
+          "price": "119.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Product",
+        "name": "Sandalias de cuero",
+        "sku": "OR-CAL-004",
+        "category": "Calzado",
+        "offers": {
+          "@type": "Offer",
+          "price": "89.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Product",
+        "name": "Zapatillas de lona",
+        "sku": "OR-CAL-005",
+        "category": "Calzado",
+        "offers": {
+          "@type": "Offer",
+          "price": "69.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Product",
+        "name": "Camisa de lino blanca",
+        "sku": "OR-CAM-001",
+        "category": "Camisas",
+        "offers": {
+          "@type": "Offer",
+          "price": "59.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Product",
+        "name": "Camisa Oxford azul",
+        "sku": "OR-CAM-002",
+        "category": "Camisas",
+        "offers": {
+          "@type": "Offer",
+          "price": "65.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Product",
+        "name": "Camisa de cuadros",
+        "sku": "OR-CAM-003",
+        "category": "Camisas",
+        "offers": {
+          "@type": "Offer",
+          "price": "55.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Product",
+        "name": "Camisa de popelín",
+        "sku": "OR-CAM-004",
+        "category": "Camisas",
+        "offers": {
+          "@type": "Offer",
+          "price": "62.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Product",
+        "name": "Polo de piqué",
+        "sku": "OR-CAM-005",
+        "category": "Camisas",
+        "offers": {
+          "@type": "Offer",
+          "price": "45.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Product",
+        "name": "Pantalón chino beige",
+        "sku": "OR-PAN-001",
+        "category": "Pantalones",
+        "offers": {
+          "@type": "Offer",
+          "price": "79.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Product",
+        "name": "Vaquero recto",
+        "sku": "OR-PAN-002",
+        "category": "Pantalones",
+        "offers": {
+          "@type": "Offer",
+          "price": "85.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Product",
+        "name": "Pantalón de lino",
+        "sku": "OR-PAN-003",
+        "category": "Pantalones",
+        "offers": {
+          "@type": "Offer",
+          "price": "75.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Product",
+        "name": "Bermuda de algodón",
+        "sku": "OR-PAN-004",
+        "category": "Pantalones",
+        "offers": {
+          "@type": "Offer",
+          "price": "49.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Product",
+        "name": "Pantalón de pinzas",
+        "sku": "OR-PAN-005",
+        "category": "Pantalones",
+        "offers": {
+          "@type": "Offer",
+          "price": "89.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Product",
+        "name": "Cinturón de cuero",
+        "sku": "OR-ACC-001",
+        "category": "Accesorios",
+        "offers": {
+          "@type": "Offer",
+          "price": "39.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Product",
+        "name": "Bufanda de lana",
+        "sku": "OR-ACC-002",
+        "category": "Accesorios",
+        "offers": {
+          "@type": "Offer",
+          "price": "35.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Product",
+        "name": "Gorra de algodón",
+        "sku": "OR-ACC-003",
+        "category": "Accesorios",
+        "offers": {
+          "@type": "Offer",
+          "price": "25.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Product",
+        "name": "Cartera de piel",
+        "sku": "OR-ACC-004",
+        "category": "Accesorios",
+        "offers": {
+          "@type": "Offer",
+          "price": "49.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Product",
+        "name": "Gafas de sol de acetato",
+        "sku": "OR-ACC-005",
+        "category": "Accesorios",
+        "offers": {
+          "@type": "Offer",
+          "price": "79.00",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ]
+}
+  </script>
+</head>
+
+<body class="min-h-screen bg-white text-zinc-800 antialiased">
+  <a href="#contenido" class="sr-only rounded bg-emerald-800 px-3 py-2 text-white focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50">Saltar al contenido</a>
+
+  <header class="border-b border-zinc-200 bg-white">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center gap-x-4 gap-y-3 px-4 py-3 sm:px-6 lg:px-8">
+      <a href="index.html" class="order-1 flex items-center gap-2 rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800" aria-label="Maison Orvane, ir al inicio">
+        <img src="assets/img/logo.svg" width="40" height="40" alt="Logotipo de Maison Orvane" class="h-10 w-10">
+        <span class="text-xl font-bold tracking-tight text-zinc-900">Maison Orvane</span>
+      </a>
+      <form role="search" action="catalogo.html" method="get" class="order-3 w-full md:order-2 md:w-auto md:flex-1 md:max-w-md">
+        <label for="buscar" class="sr-only">Buscar productos</label>
+        <input id="buscar" type="search" placeholder="Buscar productos" autocomplete="off" class="mt-1 block w-full rounded-lg border border-zinc-500 bg-white px-3 py-2 text-base text-zinc-900 placeholder:text-zinc-500 focus:border-emerald-800 focus:outline-2 focus:outline-offset-2 focus:outline-emerald-800 mt-0 rounded-full bg-zinc-50 px-4">
+      </form>
+      <div class="order-2 ml-auto flex items-center gap-2 md:order-3 md:ml-0">
+        <a href="catalogo.html" aria-current="page" class="rounded underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 px-1 py-2 text-sm font-medium text-zinc-900">Catálogo</a>
+        <a href="carrito.html" class="rounded underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800 px-1 py-2 text-sm font-medium text-zinc-900">Carrito (3)</a>
+        <details class="relative">
+          <summary class="cursor-pointer list-none rounded-full px-3 py-2 text-sm font-medium text-zinc-900 ring-1 ring-zinc-400 hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Mi cuenta</summary>
+          <ul class="absolute right-0 z-20 mt-2 w-52 rounded-lg bg-white p-2 text-sm shadow-lg ring-1 ring-zinc-200">
+            <li><a href="#" class="block rounded px-3 py-2 text-zinc-900 hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Iniciar sesión</a></li>
+            <li><a href="#" class="block rounded px-3 py-2 text-zinc-900 hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Crear cuenta</a></li>
+            <li><a href="#" class="block rounded px-3 py-2 text-zinc-900 hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Mis pedidos</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+    <nav aria-label="Ruta de navegación" class="text-sm text-zinc-700"><ol class="flex gap-2"><li><a href="index.html" class="rounded underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Inicio</a></li><li aria-hidden="true">/</li><li aria-current="page">Catálogo</li></ol></nav>
+    <h1 class="mt-3 text-3xl font-extrabold text-zinc-900 sm:text-4xl">Catálogo</h1>
+    <p class="mt-1 text-zinc-700">20 productos de ejemplo.</p>
+
+    <form action="catalogo.html" method="get" aria-label="Filtros del catálogo" class="mt-6 grid gap-4 rounded-xl bg-zinc-50 p-4 ring-1 ring-zinc-200 sm:grid-cols-3 sm:items-end">
+      <div>
+        <label for="filtro-categoria" class="block text-sm font-semibold text-zinc-900">Categoría</label>
+        <select id="filtro-categoria" class="mt-1 block w-full rounded-lg border border-zinc-500 bg-white px-3 py-2 text-base text-zinc-900 placeholder:text-zinc-500 focus:border-emerald-800 focus:outline-2 focus:outline-offset-2 focus:outline-emerald-800">
+          <option value="">Todas</option>
+          <option>Calzado</option><option>Camisas</option><option>Pantalones</option><option>Accesorios</option>
+        </select>
+      </div>
+      <div>
+        <label for="filtro-talla" class="block text-sm font-semibold text-zinc-900">Talla</label>
+        <select id="filtro-talla" class="mt-1 block w-full rounded-lg border border-zinc-500 bg-white px-3 py-2 text-base text-zinc-900 placeholder:text-zinc-500 focus:border-emerald-800 focus:outline-2 focus:outline-offset-2 focus:outline-emerald-800">
+            <option value="">Todas</option>
+            <optgroup label="Ropa"><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option></optgroup>
+            <optgroup label="Calzado"><option>39</option><option>40</option><option>41</option><option>42</option><option>43</option><option>44</option><option>45</option></optgroup>
+        </select>
+      </div>
+      <button type="submit" class="inline-block rounded-full bg-emerald-800 px-6 py-3 text-center font-semibold text-white hover:bg-emerald-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">Aplicar filtros</button>
+    </form>
+    <p class="mt-2 text-sm text-zinc-700">En este prototipo los filtros todavía no cambian el listado: solo muestran el diseño de la barra.</p>
+
+    <section aria-labelledby="titulo-listado" class="mt-8">
+      <h2 id="titulo-listado" class="sr-only">Listado de productos</h2>
+      <ul class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4">
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/zapatillas-piel-blanca.svg" width="400" height="500" loading="lazy" alt="Zapatillas de piel blanca (blancas), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Zapatillas de piel blanca</h3>
+                <p class="text-sm text-zinc-700">129,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/botines-ante.svg" width="400" height="500" loading="lazy" alt="Botines de ante (marrón claro), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Botines de ante</h3>
+                <p class="text-sm text-zinc-700">149,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/mocasines-clasicos.svg" width="400" height="500" loading="lazy" alt="Mocasines clásicos (marrón oscuro), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Mocasines clásicos</h3>
+                <p class="text-sm text-zinc-700">119,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/sandalias-cuero.svg" width="400" height="500" loading="lazy" alt="Sandalias de cuero (color cuero), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Sandalias de cuero</h3>
+                <p class="text-sm text-zinc-700">89,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/zapatillas-lona.svg" width="400" height="500" loading="lazy" alt="Zapatillas de lona (azul marino), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Zapatillas de lona</h3>
+                <p class="text-sm text-zinc-700">69,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/camisa-lino-blanca.svg" width="400" height="500" loading="lazy" alt="Camisa de lino blanca (blanca), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Camisa de lino blanca</h3>
+                <p class="text-sm text-zinc-700">59,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/camisa-oxford-azul.svg" width="400" height="500" loading="lazy" alt="Camisa Oxford azul (azul claro), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Camisa Oxford azul</h3>
+                <p class="text-sm text-zinc-700">65,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/camisa-cuadros.svg" width="400" height="500" loading="lazy" alt="Camisa de cuadros (roja), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Camisa de cuadros</h3>
+                <p class="text-sm text-zinc-700">55,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/camisa-popelin.svg" width="400" height="500" loading="lazy" alt="Camisa de popelín (beige), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Camisa de popelín</h3>
+                <p class="text-sm text-zinc-700">62,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/polo-pique.svg" width="400" height="500" loading="lazy" alt="Polo de piqué (verde oscuro), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Polo de piqué</h3>
+                <p class="text-sm text-zinc-700">45,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/pantalon-chino-beige.svg" width="400" height="500" loading="lazy" alt="Pantalón chino beige (beige), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Pantalón chino beige</h3>
+                <p class="text-sm text-zinc-700">79,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/vaquero-recto.svg" width="400" height="500" loading="lazy" alt="Vaquero recto (azul vaquero), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Vaquero recto</h3>
+                <p class="text-sm text-zinc-700">85,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/pantalon-lino.svg" width="400" height="500" loading="lazy" alt="Pantalón de lino (crudo), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Pantalón de lino</h3>
+                <p class="text-sm text-zinc-700">75,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/bermuda-algodon.svg" width="400" height="500" loading="lazy" alt="Bermuda de algodón (verde oliva), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Bermuda de algodón</h3>
+                <p class="text-sm text-zinc-700">49,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/pantalon-pinzas.svg" width="400" height="500" loading="lazy" alt="Pantalón de pinzas (gris antracita), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Pantalón de pinzas</h3>
+                <p class="text-sm text-zinc-700">89,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/cinturon-cuero.svg" width="400" height="500" loading="lazy" alt="Cinturón de cuero (marrón), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Cinturón de cuero</h3>
+                <p class="text-sm text-zinc-700">39,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/bufanda-lana.svg" width="400" height="500" loading="lazy" alt="Bufanda de lana (granate), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Bufanda de lana</h3>
+                <p class="text-sm text-zinc-700">35,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/gorra-algodon.svg" width="400" height="500" loading="lazy" alt="Gorra de algodón (azul marino), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Gorra de algodón</h3>
+                <p class="text-sm text-zinc-700">25,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/cartera-piel.svg" width="400" height="500" loading="lazy" alt="Cartera de piel (marrón oscuro), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Cartera de piel</h3>
+                <p class="text-sm text-zinc-700">49,00 €</p>
+              </a>
+            </article>
+          </li>
+          <li>
+            <article class="group relative">
+              <a href="producto.html" class="block rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-800">
+                <img src="assets/img/gafas-sol.svg" width="400" height="500" loading="lazy" alt="Gafas de sol de acetato (negras), ilustración del producto" class="aspect-4/5 w-full rounded-lg bg-zinc-100 object-cover">
+                
+                <h3 class="mt-2 text-sm font-semibold text-zinc-900 group-hover:underline">Gafas de sol de acetato</h3>
+                <p class="text-sm text-zinc-700">79,00 €</p>
+              </a>
+            </article>
+          </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="mt-16 bg-zinc-900 text-zinc-100">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
+      <section aria-labelledby="pie-marca">
+        <h2 id="pie-marca" class="text-lg font-bold">Maison Orvane</h2>
+        <p class="mt-2 text-sm text-zinc-300">Moda con sede en Francia. Prototipo de demostración: marca, productos, precios y textos son ficticios.</p>
+      </section>
+      <nav aria-labelledby="pie-categorias">
+        <h2 id="pie-categorias" class="text-lg font-bold">Categorías</h2>
+        <ul class="mt-2 space-y-1 text-sm">
+          <li><a href="catalogo.html" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Calzado</a></li>
+          <li><a href="catalogo.html" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Camisas</a></li>
+          <li><a href="catalogo.html" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Pantalones</a></li>
+          <li><a href="catalogo.html" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Accesorios</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="pie-legal">
+        <h2 id="pie-legal" class="text-lg font-bold">Legal</h2>
+        <ul class="mt-2 space-y-1 text-sm">
+          <li><a href="#" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Términos y condiciones</a></li>
+          <li><a href="#" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Política de privacidad</a></li>
+          <li><a href="#" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">Sobre la marca</a></li>
+        </ul>
+      </nav>
+      <section aria-labelledby="pie-contacto">
+        <h2 id="pie-contacto" class="text-lg font-bold">Contacto</h2>
+        <address class="mt-2 text-sm not-italic text-zinc-300">
+          <p>París, Francia</p>
+          <p><a href="mailto:contacto@orvane.example" class="rounded text-zinc-100 underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300">contacto@orvane.example</a></p>
+        </address>
+      </section>
+    </div>
+    <p class="border-t border-zinc-700 px-4 py-4 text-center text-xs text-zinc-300">© 2026 Maison Orvane. Prototipo.</p>
+  </footer>
+</body>
+</html>
